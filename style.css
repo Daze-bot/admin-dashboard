@@ -38,6 +38,9 @@
 
 .title {
   font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .sidebar li {
@@ -49,7 +52,14 @@
 
 .sidebar img {
   filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7454%) hue-rotate(268deg) brightness(118%) contrast(101%);
+}
+
+li img {
   height: 1.5rem;
+}
+
+.title img {
+  height: 3rem;
 }
 
 .content {
