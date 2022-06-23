@@ -15,7 +15,7 @@
 
 .container {
   display: grid;
-  grid-template: 180px 1fr / 300px 1fr;
+  grid-template: 180px 1fr / 280px 1fr;
 }
 
 .header {
@@ -34,6 +34,13 @@
   padding: 24px;
   color: white;
   font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navigation {
+  margin-bottom: 24px;
 }
 
 .title {
@@ -41,6 +48,7 @@
   display: flex;
   align-items: center;
   gap: 16px;
+  margin-bottom: 72px;
 }
 
 .sidebar li {
@@ -48,6 +56,17 @@
   align-items: center;
   gap: 16px;
   font-size: 1.5rem;
+  margin-top: min(24px, 4vh);
+}
+
+.sidebar li:hover {
+  transform: translateX(8px);
+  cursor: pointer;
+}
+
+li p {
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .sidebar img {
