@@ -20,15 +20,15 @@
 }
 
 .header {
-  grid-area: 1/3/2/4;
+  grid-area: 1/2/2/4;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2), 0 4px 20px rgba(0, 0, 0, 0.19);
   z-index: 1;
 }
 
 .sidebar {
-  grid-area: 1/1/3/3;
+  grid-area: 1/1/3/2;
   height: 100vh;
-  overflow: auto;
+  overflow: hidden;
   background-color: #1992d4;
   box-shadow: 2px 0 4px rgba(0, 0, 0, 0.2), 4px 0 10px rgba(0, 0, 0, 0.19);
   z-index: 2;
@@ -42,6 +42,7 @@
 
 .sidebar:hover {
   grid-area: 1/1/3/3;
+  overflow: auto;
 }
 
 .navigation {
@@ -52,8 +53,11 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+  justify-content: start;
   gap: 16px;
   margin-bottom: min(72px, 14vh);
+  position: relative;
+  padding-left: 48px;
 }
 
 .sidebar li {
@@ -88,10 +92,12 @@ li img {
 
 .title img {
   height: 3rem;
+  position: absolute;
+  left: -12px;
 }
 
 .content {
-  grid-area: 2/3/3/4;
+  grid-area: 2/2/3/4;
   overflow: auto;
   background-color: #e2e8f0;
 }
