@@ -37,7 +37,7 @@
   gap: 24px;
 }
 
-.header input {
+.search input {
   flex-grow: 1;
   padding: 6px;
   padding-left: 12px;
@@ -47,17 +47,23 @@
   font-size: 1.2rem;
 }
 
-.header input:focus {
+.search input:focus {
   background-color: white;
   outline: none;
   border: 2px solid #1992d4;
   box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.2);
 }
 
-.header label {
+.search label {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.search label:hover,
+.profile-icons img:hover,
+.header button:hover {
+  cursor: pointer;
 }
 
 label img {
@@ -66,6 +72,24 @@ label img {
 
 .profile-icons {
   grid-area: 1/2/2/3;
+  padding: 10px 48px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 36px;
+}
+
+#icon-notify {
+  height: 28px;
+}
+
+#icon-avatar {
+  height: 42px;
+}
+
+.profile-icons p {
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 .user-info {
