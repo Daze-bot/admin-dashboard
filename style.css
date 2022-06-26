@@ -108,9 +108,21 @@ label img {
   margin-bottom: 8px;
 }
 
-.user-name {
+.user-name,
+.user-name a {
   font-size: 1.7rem;
   font-weight: 700;
+}
+
+.user-name a:link,
+.user-name a:visited,
+.user-name a:active {
+  color: #1992d4;
+  text-decoration: none;
+}
+
+.user-name a:hover {
+  color: #1992d496;
 }
 
 .user-buttons {
