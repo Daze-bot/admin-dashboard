@@ -207,8 +207,8 @@ label img {
 }
 
 .sidebar li:hover {
-  gap: 32px;
-  transition: .3s;
+  transform: scale(1.08);
+  transition: .15s;
   cursor: pointer;
   text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5), 0 6px 20px rgba(0, 0, 0, 0.5);
 }
