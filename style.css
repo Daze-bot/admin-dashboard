@@ -83,6 +83,11 @@ label img {
   height: 28px;
 }
 
+#icon-notify:hover {
+  animation: shake .8s;
+  animation-iteration-count: 2;
+}
+
 #icon-avatar {
   height: 42px;
 }
@@ -231,4 +236,13 @@ li img {
   grid-area: 2/2/3/4;
   overflow: auto;
   background-color: #e2e8f0;
+}
+
+@keyframes shake {
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(-1px, 0, 0) rotate(4deg);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translate3d(1px, 0, 0) rotate(-4deg);
+  }
 }
