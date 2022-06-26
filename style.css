@@ -127,6 +127,33 @@ label img {
 
 .user-buttons {
   grid-area: 2/2/3/3;
+  padding: 10px 48px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 36px;
+}
+
+.user-buttons button {
+  color: white;
+  background-color: #1992d4;
+  border: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 8px 32px;
+  border-radius: 20px;
+}
+
+.user-buttons button:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.user-buttons button:active,
+.search label:active,
+.profile-icons img:active,
+.header button:active {
+  box-shadow: none;
+  transform: translateY(2px);
 }
 
 .sidebar {
