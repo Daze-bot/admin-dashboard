@@ -21,7 +21,8 @@
 
 .header {
   grid-area: 1/2/2/4;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2), 0 4px 20px rgba(0, 0, 0, 0.19);
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2), 0 4px 20px rgba(0, 0, 0, 0.2);
   z-index: 1;
   display: grid;
   grid-template: 65px 115px / 2fr 1fr;
@@ -38,12 +39,19 @@
 
 .header input {
   flex-grow: 1;
-  padding: 8px;
+  padding: 6px;
   padding-left: 12px;
   border: none;
   background-color: rgba(111, 137, 151, 0.2);
   border-radius: 20px;
   font-size: 1.2rem;
+}
+
+.header input:focus {
+  background-color: white;
+  outline: none;
+  border: 2px solid #1992d4;
+  box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.2);
 }
 
 .header label {
