@@ -267,14 +267,13 @@ li img {
 }
 
 .projects-item {
-  background-color: white;
+  background: linear-gradient(to right, #e9573e, #e9573e 12px, white 12px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 36px;
   border-radius: 12px;
   cursor: pointer;
-  box-shadow: inset 8px 0 #e9573e;
 }
 
 .projects-item:hover {
