@@ -274,10 +274,16 @@ li img {
   padding: 36px;
   border-radius: 12px;
   cursor: pointer;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .projects-item:hover {
   transform: scale(1.02);
+}
+
+.projects-item:active {
+  transform: scale(1);
+  box-shadow: none;
 }
 
 .project-text {
