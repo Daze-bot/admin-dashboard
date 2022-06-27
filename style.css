@@ -23,7 +23,7 @@
 .header {
   grid-area: 1/2/2/4;
   background-color: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2), 0 4px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.2);
   z-index: 1;
   display: grid;
   grid-template: 65px 115px / 2fr 1fr;
@@ -171,7 +171,7 @@ label img {
   height: 100vh;
   overflow: hidden;
   background-color: #1992d4;
-  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.2), 4px 0 10px rgba(0, 0, 0, 0.19);
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.2), 4px 0 10px rgba(0, 0, 0, 0.2);
   z-index: 2;
   padding: 24px;
   color: white;
@@ -273,6 +273,12 @@ li img {
   justify-content: space-between;
   padding: 36px;
   border-radius: 12px;
+  cursor: pointer;
+  box-shadow: inset 8px 0 #e9573e;
+}
+
+.projects-item:hover {
+  transform: scale(1.02);
 }
 
 .project-text {
@@ -280,7 +286,11 @@ li img {
 }
 
 .project-name {
-  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.project-description {
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .project-icons {
@@ -290,7 +300,7 @@ li img {
 }
 
 .project-icons img {
-  cursor: pointer;
+  cursor: copy
 }
 
 .content-side {
