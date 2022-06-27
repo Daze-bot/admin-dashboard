@@ -194,6 +194,7 @@ label img {
   margin-bottom: min(72px, 14vh);
   position: relative;
   padding-left: 56px;
+  transition: .15s;
 }
 
 .sidebar li {
@@ -206,7 +207,8 @@ label img {
   transition: .15s;
 }
 
-.sidebar li:hover {
+.sidebar li:hover,
+.title:hover {
   transform: scale(1.08);
   transition: .15s;
   cursor: pointer;
