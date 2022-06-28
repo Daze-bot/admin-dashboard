@@ -380,7 +380,7 @@ li img {
 .announcements hr {
   height: 1px;
   border: none;
-  background-color:rgba(0, 0, 0, 0.2);
+  background-color:var(--hr-color);
 }
 
 .trending-label {
