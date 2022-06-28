@@ -4,4 +4,6 @@
   --color-change-filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7454%) hue-rotate(268deg) brightness(118%) contrast(101%);
   --searchbar-color: rgba(227, 234, 238, 0.2);
   --searchbar-hover: rgba(227, 234, 238, 0.35);
+  --content-background-color: #707379;
+  --secondary-text-color: rgba(255, 255, 255, 0.7);
 }

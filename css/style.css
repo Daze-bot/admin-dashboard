@@ -261,7 +261,7 @@ li img {
   height: calc(100vh - 180px);
   overflow-y: auto;
   overflow-x: hidden;
-  background-color: #e2e8f0;
+  background-color: var(--content-background-color);
   display: grid;
   grid-template: 80px 1fr / 1fr 380px;
   color: var(--primary-text-color);
@@ -315,7 +315,7 @@ li img {
 .project-description,
 .announcement-text,
 .trending-user-project {
-  color: rgba(0, 0, 0, 0.7);
+  color: var(--secondary-text-color);
 }
 
 .project-icons {
@@ -325,7 +325,8 @@ li img {
 }
 
 .project-icons img {
-  cursor: copy
+  cursor: copy;
+  filter: var(--color-change-filter);
 }
 
 .announcements-label {

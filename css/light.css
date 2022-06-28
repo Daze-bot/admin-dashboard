@@ -4,4 +4,6 @@
   --color-change-filter: none;
   --searchbar-color: rgba(111, 137, 151, 0.2);
   --searchbar-hover: rgba(111, 137, 151, 0.35);
+  --content-background-color: #e2e8f0;
+  --secondary-text-color: rgba(0, 0, 0, 0.7);
 }
