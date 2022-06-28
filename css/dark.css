@@ -7,4 +7,6 @@
   --content-background-color: #707379;
   --secondary-text-color: rgba(255, 255, 255, 0.7);
   --hr-color: rgba(255, 255, 255, 0.2);
+  --light-transform-scale: 1.2;
+  --dark-transform-scale: 1;
 }

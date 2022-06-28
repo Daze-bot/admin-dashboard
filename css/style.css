@@ -92,6 +92,14 @@ label img {
   gap: 12px;
 }
 
+#lightMode:hover {
+  transform: scale(var(--light-transform-scale));
+}
+
+#darkMode:hover {
+  transform: scale(var(--dark-transform-scale));
+}
+
 #icon-notify {
   height: 28px;
 }
