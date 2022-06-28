@@ -300,7 +300,8 @@ li img {
 }
 
 .project-description,
-.announcement-text {
+.announcement-text,
+.trending-user-project {
   color: rgba(0, 0, 0, 0.7);
 }
 
@@ -376,6 +377,16 @@ li img {
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+.trending-info {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.trending-info img {
+  height: 56px;
 }
 
 .announcements-label,
