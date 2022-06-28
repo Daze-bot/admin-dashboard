@@ -251,7 +251,7 @@ li img {
   overflow-x: hidden;
   background-color: #e2e8f0;
   display: grid;
-  grid-template: 80px 1fr / 2.5fr 1fr;
+  grid-template: 80px 1fr / 1fr 380px;
 }
 
 .projects-label {
@@ -299,7 +299,8 @@ li img {
   margin-bottom: 8px;
 }
 
-.project-description {
+.project-description,
+.announcement-text {
   color: rgba(0, 0, 0, 0.7);
 }
 
@@ -313,8 +314,68 @@ li img {
   cursor: copy
 }
 
+.announcements-label {
+  grid-area: 1/2/2/3;
+  padding: 12px 24px 12px 0;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+
 .content-side {
-  grid-area: 1/2/3/3;
+  grid-area: 2/2/3/3;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 24px 12px 0;
+  gap: 24px;
+}
+
+.announcements,
+.trending {
+  background-color: white;
+  padding: 36px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.announcements {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.announcement-info,
+.trending-info {
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.announcement-title {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: .02rem;
+  margin-bottom: 4px;
+}
+
+.announcement-text {
+  font-size: .85rem;
+}
+
+.announcements hr {
+  height: 1px;
+  border: none;
+  background-color:rgba(0, 0, 0, 0.2);
+}
+
+.trending-label {
+  margin-top: 28px;
+}
+
+.trending {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .announcements-label,
