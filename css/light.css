@@ -1,0 +1,7 @@
+:root {
+  --primary-background-color: white;
+  --primary-text-color: black;
+  --color-change-filter: none;
+  --searchbar-color: rgba(111, 137, 151, 0.2);
+  --searchbar-hover: rgba(111, 137, 151, 0.35);
+}
