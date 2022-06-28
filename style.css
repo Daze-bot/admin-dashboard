@@ -84,6 +84,12 @@ label img {
   gap: 36px;
 }
 
+.theme {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 #icon-notify {
   height: 28px;
 }
